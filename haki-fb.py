@@ -144,11 +144,11 @@ class Logo:
 """,width=87,style=f"{color_panel}"))
 def xoshnaw():
   uuid=str(os.geteuid())+str(os.getlogin())
-  id="工".join(uuid)
+  id="¥".join(uuid)
   os.system("clear");licensi()
   whoami(f'''[bold cyan]LICENSI KAMU ADALAH [bold white]:[bold white] {id}''',"color(8)")
   try:
-    httpCaht=requests.get("https://github.com/sallxd/sall/blob/main/Key.txt").text
+    httpCaht=requests.get("https://github.com/sallxd/sall/blob/main/licensi.txt").text
     if id in httpCaht:
       whoami(f'''[bold green]HORE LICENSI ANDA SUDAH AKTIF [🥳]''',"color(8)")
       msg=str(os.geteuid())
@@ -157,7 +157,7 @@ def xoshnaw():
     else:
       whoami(f'''[bold red]LICENSI ANDA TIDAK AKTIF [😡]''',"color(8)")
       whoami(f'''[bold yellow]SILAHKAN COPY ID DI ATAS KIRIM KE AUTHOR [📩]''',"color(8)")
-      whoami(f'''[bold green]Whatsapp[bold white] : [bold white] +6282316671302 [bold green][📲]''',"color(8)")
+      whoami(f'''[bold green]Whatsapp[bold white] : [bold white] +62888888888 [bold green][📲]''',"color(8)")
       os.system("xdg-open https://wa.me/+628888888888?text=BANG+SAYA+MAU+BELI+LICENSI+CRACK+FB+BERAPA+HARGA+NYA+?")
       time.sleep(1)
       sys.exit()
